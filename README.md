@@ -3,11 +3,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabla Stock Totems y Tensa</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-  </style>
 </head>
 <body>
 <h2>Totems</h2>
