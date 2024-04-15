@@ -6,14 +6,12 @@
 <body>
 <h2>Totems</h2>
 <table>
-  <thead>
-    <tr>
+<tr>
       <th>Referencia</th>
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
       <th>Foto</th>
-  </thead>
-  <tbody>
+<tbody>
       <td>000000000030000039B.39B</td>
       <td>TOTEM PARA VINILAR</td>
       <td>3</td> 
