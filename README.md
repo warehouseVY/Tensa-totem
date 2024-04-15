@@ -19,15 +19,13 @@
       <td>000000000030000039B.39B</td>
       <td>TOTEM PARA VINILAR</td>
       <td>3</td> 
-       <td><button onclick="window.openblank')">A11</button></td>
-      <td><button onclick="window.open"><a href="Fotos/A11.JPG" target="_blank">A11</a></button></td>
+     <td><button onclick="window.open"><a href="Fotos/A11.JPG" target="_blank">A11</a></button></td>
     </tr>
     <tr>
       <td>000000000030000051.1</td>
       <td>TOTEM BAG DROP</td>
       <td>6</td>
-      <a href="Fotos/A12.JPG" target="_blank">A11</a>
-    <td><button onclick="window.open"><a href="Fotos/A12.JPG" target="_blank">A12</a></button></td>
+      <td><button onclick="window.open"><a href="Fotos/A12.JPG" target="_blank">A12</a></button></td>
  </tr>
     <tr>
         <td>000000000030000051.10</td>
