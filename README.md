@@ -6,7 +6,7 @@
 <body>
 <h2>Totems</h2>
 <table>
-<tr>
+
       <th>Referencia</th>
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
@@ -16,7 +16,7 @@
       <td>TOTEM PARA VINILAR</td>
       <td>3</td> 
      <td><button onclick="window.open"><a href="Fotos/A11.JPG" target="_blank">A11</a></button></td>
-    </tr>
+  
     <tr>
       <td>000000000030000051.1</td>
       <td>TOTEM BAG DROP</td>
