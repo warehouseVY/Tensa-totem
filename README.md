@@ -60,7 +60,7 @@
         <td>30000166</td>
         <td>TOTEM EMBARQUE PREFERENTE</td>
         <td>5</td>
-       <<td><button onclick="window.open"><a href="Fotos/A9.JPG" target="_blank">A9</a></button></td>
+       <td><button onclick="window.open"><a href="Fotos/A9.JPG" target="_blank">A9</a></button></td>
     </tr>
     <tr>
         <td>000000030000166.01</td>
