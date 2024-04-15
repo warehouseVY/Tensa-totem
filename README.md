@@ -90,7 +90,7 @@
         <td>1</td>
         <td><button onclick="window.open"><a href="Fotos/A10.JPG" target="_blank">A10</a></button></td>
     </tr>
-
+</table>
 <h4>TENSABARRIERS</h3>
 <table>
   <thead>
