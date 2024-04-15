@@ -2,9 +2,8 @@
 <head>
 <body>
 <h2>Material Branding</h2>
-</head>
-<table>
 <h3>TOTEMS</h3>
+<table>
 <tr>
     <th>Referencia</th>
     <th>Descripción Artículo</th>
