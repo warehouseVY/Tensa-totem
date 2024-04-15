@@ -4,13 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h2> Material Branding </h2>
+<h2> Material Branding
 <table>
-    
-  Holi
-  
-  
-  <tr>
+    <tr>
       <th>Referencia</th>
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
