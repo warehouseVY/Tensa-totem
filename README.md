@@ -12,6 +12,8 @@
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
       <th>Foto</th>
+    </tr>
+    <tr>
 <tbody>
       <td>000000000030000039B.39B</td>
       <td>TOTEM PARA VINILAR</td>
