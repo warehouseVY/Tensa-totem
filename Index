@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Página Principal</title>
+  <title>Stock Branding Vueling</title>
 </head>
 <body>
-  <h1>Bienvenido a mi página principal</h1>
-  <button onclick="window.location.href='https://github.com/usuario/repositorio/tree/rama1'">Tensabarriers</button>
-  <button onclick="window.location.href='https://github.com/usuario/repositorio/tree/rama2'">Totems</button>
-  <button onclick="window.location.href='https://github.com/usuario/repositorio/tree/rama3'">Cartelers</button>
+  <h1>Enlace apartados:</h1>
+  <button onclick="https://github.com/warehouseVY/Tensa-totem/blob/main/Totems.md'">Tensabarriers</button>
+  <button onclick="https://github.com/warehouseVY/Tensa-totem/blob/main/Tensa.md'">Totems</button>
+  <button onclick="https://github.com/warehouseVY/Tensa-totem/blob/main/Carteleria.md'">Cartelers</button>
 </body>
 </html>
