@@ -5,8 +5,9 @@
 </head>
 <body>
 <h2> Material Branding  </h2>
+  h3> TOTEMS </h3>
   <table>
-<tr>
+    <tr>
       <th>Referencia</th>
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
@@ -90,7 +91,7 @@
         <td><button onclick="window.open"><a href="Fotos/A10.JPG" target="_blank">A10</a></button></td>
     </tr>
 
-<h3>TENSABARRIERS</h3>
+<h4>TENSABARRIERS</h3>
 <table>
   <thead>
     <tr>
