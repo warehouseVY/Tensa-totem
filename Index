@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+</head>
+<body>
+  <h1>Bienvenido a mi página principal</h1>
+  <button onclick="window.location.href='https://github.com/usuario/repositorio/tree/rama1'">Tensabarriers</button>
+  <button onclick="window.location.href='https://github.com/usuario/repositorio/tree/rama2'">Totems</button>
+  <button onclick="window.location.href='https://github.com/usuario/repositorio/tree/rama3'">Cartelers</button>
+</body>
+</html>
