@@ -4,7 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h2> Material Branding  </h2>
+<h2> Material Branding </h2>
+</body>
   <h3>TOTEMS</h3>
   <table>
     <tr>
