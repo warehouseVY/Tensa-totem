@@ -73,7 +73,7 @@
         <td>VY0021</td>
         <td>TOTEM MADRID</td>
         <td>1</td>
-       <a href="Fotos/A5.JPG" target="_blank">A5</a>
+       <td><button onclick="window.open"><a href="Fotos/A5.JPG" target="_blank">A5</a></button></td>
     </tr>
     <tr>
         <td>VYCK 103</td>
