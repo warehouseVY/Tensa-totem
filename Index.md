@@ -7,8 +7,8 @@
 </head>
 <body>
   <h1>Enlace apartados:</h1>
-  <button onclick="https://github.com/warehouseVY/Tensa-totem/blob/main/Totems.md'">Tensabarriers</button>
-  <button onclick="https://github.com/warehouseVY/Tensa-totem/blob/main/Tensa.md'">Totems</button>
+  <button onclick="Totems.md'">Totems</button>
+  <button onclick="Tensa.md'">Tensabarriers</button>
   <button onclick="https://github.com/warehouseVY/Tensa-totem/blob/main/Carteleria.md'">Carteles</button>
 </body>
 </html>
