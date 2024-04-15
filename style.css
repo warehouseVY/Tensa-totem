@@ -1,5 +1,5 @@
 #boton1 {
-  background-color: blue;
+  background-color: Green;
   color: white; 
   padding: 10px 20px; /* Ajusta el relleno (padding) según sea necesario */
   border: none; 
@@ -7,7 +7,7 @@
   border-radius: 5px;
 
 #boton2 {
-    background-color: blue;
+    background-color: Green;
     color: white; 
     padding: 10px 20px; /* Ajusta el relleno (padding) según sea necesario */
     border: none; 
