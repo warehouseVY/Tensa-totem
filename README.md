@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
-body {
+  <body>
       font-family: Arial, sans-serif;
       background-color: #f0f0f0;
 }
@@ -13,7 +13,7 @@ color: green;
 }
 </style>
   
-  <body>
+
 <h2>Material Branding</h2>
 <table>
 <h3>TOTEMS</h3>
