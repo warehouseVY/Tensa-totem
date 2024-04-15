@@ -27,7 +27,7 @@
       <td>TOTEM BAG DROP</td>
       <td>6</td>
       <a href="Fotos/A12.JPG" target="_blank">A11</a>
-    <td><button onclick="window.open"><a href="Fotos/A12.JPG" target="_blank">A11</a>A11</button></td>
+    <td><button onclick="window.open"><a href="Fotos/A12.JPG" target="_blank">A11</a></button></td>
  </tr>
     <tr>
         <td>000000000030000051.10</td>
