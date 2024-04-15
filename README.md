@@ -17,7 +17,7 @@
       <td>000000000030000039B.39B</td>
       <td>TOTEM PARA VINILAR</td>
       <td>3</td> 
-     <td><button onclick="window.open"><a href="Fotos/A11.JPG" target="_blank">A11</a></button></td>
+     <td><button onclick="window.open"> <a href="Fotos/A11.JPG" target="_blank">A11</a> </button></td>
   </tr>
     <tr>
       <td>000000000030000051.1</td>
