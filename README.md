@@ -54,8 +54,8 @@
     <tr>
         <td>000000000030000051.9</td>
         <td>TOTEM TRASERAS PREMIUM</td>
-        <td>2</td
-       <td><button onclick="window.open"><a href="Fotos/A1.JPG" target="_blank">A1</a></button> </td>
+        <td>2</td>
+       <td><button onclick="window.open"><a href="Fotos/A1.JPG" target="_blank">A1</a></button></td>
     </tr>
     <tr>
         <td>30000166</td>
