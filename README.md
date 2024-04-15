@@ -6,12 +6,12 @@
 <body>
 <h2>Material Branding</h2>
 <table>
-    <h3>
+ <h3>TOTEMS</h3>
+    <tr>
       <th>Referencia</th>
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
       <th>Foto</th>
- </h3>
     <tr>
 <tbody>
       <td>000000000030000039B.39B</td>
