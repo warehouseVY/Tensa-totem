@@ -6,13 +6,14 @@
 <body>
 <h2>Material Branding</h2>
 <table>
- <h3>TOTEMS</h3>
-    <tr>
-      <th>Referencia</th>
-      <th>Descripción Artículo</th>
-      <th>Cantidad</th>
-      <th>Foto</th>
-    <tr>
+<h3>TOTEMS</h3>
+<tr>
+    <th>Referencia</th>
+    <th>Descripción Artículo</th>
+    <th>Cantidad</th>
+    <th>Foto</th>
+</tr>
+<tr>
 <tbody>
       <td>000000000030000039B.39B</td>
       <td>TOTEM PARA VINILAR</td>
