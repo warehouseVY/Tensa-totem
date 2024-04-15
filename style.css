@@ -3,7 +3,7 @@
 #miDiv {
   width: 500px;
   height: 281px; 
-  background-image: Fotos/Vueling-Airlines-Logo-500x281.PNG;
+  background-image: ('Fotos/Vueling-Airlines-Logo-500x281.PNG');
   background-size: cover; 
 
 <body>
