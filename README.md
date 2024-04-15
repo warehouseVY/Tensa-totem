@@ -6,7 +6,7 @@
 <body>
 <h2>Material Branding</h2>
 <table>
-    <tr>
+    tr>
       <th>Referencia</th>
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
