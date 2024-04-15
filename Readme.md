@@ -8,10 +8,10 @@
 </head>
 <body>
 <td>
-<button id="boton2" onclick="window.location"><a href="https://github.com/warehouseVY/Tensa-totem/blob/Tensabarriers/Readme.md" target="_blank">Tensabarriers</a>
+<button id="boton2" onclick="window.location"><a href="https://github.com/warehouseVY/Tensa-totem/blob/Tensabarriers/Readme.html" target="_blank">Tensabarriers</a>
 </td>
  
-<td> <button id="boton2" onclick="window.location"><a href="https://github.com/warehouseVY/Tensa-totem/blob/Totems/Readme.md" target="_blank">Totems</a>
+<td> <button id="boton2" onclick="window.location"><a href="https://github.com/warehouseVY/Tensa-totem/blob/Totems/Readme.html" target="_blank">Totems</a>
 </button></td>
 
 </body>
