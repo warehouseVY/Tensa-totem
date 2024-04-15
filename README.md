@@ -4,7 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<h2> Material Branding</h2<table>
+<h2> Material Branding
+<table>
     <tr>
       <th>Referencia</th>
       <th>Descripción Artículo</th>
