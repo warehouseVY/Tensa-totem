@@ -1,8 +1,8 @@
 <html lang="es">
 <head>
 <body>
-</head>
 <h2>Material Branding</h2>
+</head>
 <table>
 <h3>TOTEMS</h3>
 <tr>
