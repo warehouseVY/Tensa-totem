@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<tr> Totems </tr>
+<tr> Totems 
 <table>
 <tr>
       <th>Referencia</th>
