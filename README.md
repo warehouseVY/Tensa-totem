@@ -5,7 +5,6 @@
 </head>
 <body>
 <h2> Material Branding </h2>
-</body>
   <h3>TOTEMS</h3>
   <table>
     <tr>
