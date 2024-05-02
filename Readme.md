@@ -173,8 +173,7 @@
     <td><button onclick="actualizarCantidad(19)">Actualizar</button></td>
     </tr>
 </table>
-</body>
-<html>
+  </html>
 
 
 
