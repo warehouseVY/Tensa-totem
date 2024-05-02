@@ -141,7 +141,7 @@
     <tr>
         <td>VYCK 122</td>
         <td>TOTEM FACIAL RECOGNITION</td>
-        <td>1</td>
+        <td>0</td>
         <td><button onclick="window.open"><a href="Fotos/A10.JPG" target="_blank">A10</a></button></td>
     </tr>
 </tbody>
