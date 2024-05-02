@@ -20,7 +20,7 @@
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
       <th>Foto</th>
-    </tr>
+ 
   </thead>
   <tbody>
    <h3>TENSABARRIERS</h3>
