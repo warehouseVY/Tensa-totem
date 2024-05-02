@@ -20,7 +20,7 @@
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
       <th>Foto</th>
-      <th>Actualizar</th>
+      <th>Actualizar Cantidad</th>
  </tr>
   </thead>
   <tbody>
@@ -72,8 +72,6 @@
         <td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
 </tr>
-</tbody>
-<tbody>  
 <table>
   <h3>TOTEMS</h3>
 <tr>
@@ -81,7 +79,7 @@
     <th>Descripción Artículo</th>
     <th>Cantidad</th>
     <th>Foto</th>
-    <th>Actualizar</th>
+    <th>Actualizar Cantidad</th>
 </tr>
 <tr>
 <td>000000000030000039B.39B</td>
@@ -175,8 +173,10 @@
     <td><button onclick="actualizarCantidad(19)">Actualizar</button></td>
     </tr>
 </table>
-</tbody>
-
+</body>
+</table>
+</body>
+<html>
 
 
 
