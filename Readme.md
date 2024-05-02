@@ -20,6 +20,7 @@
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
       <th>Foto</th>
+      <th>Actualizar</th>
  </tr>
   </thead>
   <tbody>
@@ -79,6 +80,7 @@
     <th>Descripción Artículo</th>
     <th>Cantidad</th>
     <th>Foto</th>
+    <th>Actualizar</th>
 </tr>
 <tr>
 <tbody>
@@ -172,8 +174,8 @@
         <td><button onclick="window.open"><a href="Fotos/A10.JPG" target="_blank">A10</a></button></td>
     <td><button onclick="actualizarCantidad(19)">Actualizar</button></td>
     </tr>
-</tbody>
 </table>
+</tbody>
 </body>
 </html>
 
