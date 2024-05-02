@@ -174,8 +174,6 @@
     </tr>
 </table>
 </body>
-</table>
-</body>
 <html>
 
 
