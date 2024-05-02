@@ -20,16 +20,15 @@
       <th>Descripción Artículo</th>
       <th>Cantidad</th>
       <th>Foto</th>
- 
+ </tr>
   </thead>
   <tbody>
-   <h3>TENSABARRIERS</h3>
+  <tr><h3>TENSABARRIERS</h3></tr> 
   <td>300000173</td>
       <td>PORTACARTELES TENSABARRIER DINA3</td>
      <td id="cantidad1">10</td>
 <td><button onclick="window.open"><a href="Fotos/B1.JPG" target="_blank">B1</a></button></td>
 <td><button onclick="actualizarCantidad(1)">Actualizar</button></td>
-    </tr>
     <tr>
       <td>300000174</td>
       <td>PORTACARTELES TENSABARRIER DINA4</td>
