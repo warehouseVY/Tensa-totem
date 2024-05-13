@@ -1,16 +1,5 @@
 <html lang="es">
 <head>
-<script>
-        function actualizarCantidad(numeroFila) {
-            var nuevaCantidad = prompt("Ingrese la nueva cantidad:");
-            if (nuevaCantidad !== null && !isNaN(nuevaCantidad) && nuevaCantidad !== "") {
-                document.getElementById('cantidad' + numeroFila).textContent = nuevaCantidad;
-            } else {
-                alert("Por favor, ingrese un número válido para la cantidad.");
-            }
-        }
-    </script>
-</head>
 <body>
 <h2>Material Branding</h2>
 <table>
@@ -173,10 +162,175 @@
     <td><button onclick="actualizarCantidad(19)">Actualizar</button></td>
     </tr>
 </table>
-
-
-
-
-
-
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Tamaño</th>
+      <th>Impresión</th>
+      <th>Cantidad</th>
+      <th>Foto</th>
+      <th>Actualizar Cantidad</th>
+ </tr>
+  </thead>
+  <tbody>
+  <tr><h3>CARTELES</h3></tr> 
+  <td>MyBag blancos</td>
+      <td>A3</td>
+<td>1 cara</td>
+     <td id="cantidad1">4</td>
+<td><button onclick="window.open"><a href="Fotos/B1.JPG" target="_blank">B1</a></button></td>
+<td><button onclick="actualizarCantidad(1)">Actualizar</button></td>
+    <tr>
+      <td>MyBag Amarillo</td>
+      <td>A3</td>
+    <td>1 cara</td>
+      <td id="cantidad2">2</td>
+     <td><button onclick="window.open"><a href="Fotos/B3.JPG" target="_blank">B3</a></button></td>
+     <td><button onclick="actualizarCantidad(2)">Actualizar</button></td>
+</tr>
+    <tr>
+        <td>MyBag Amarillo</td>
+      <td>A3</td>
+    <td>doble cara</td>
+        <td id="cantidad3">7</td>
+      <td><button onclick="window.open"><a href="Fotos/B4.JPG" target="_blank">B4</a></button></td>
+    <td><button onclick="actualizarCantidad(3)">Actualizar</button></td>
+</tr>
+    <tr>
+        <td>MyBag formulario aduanas</td>
+      <td>A3</td>
+    <td>1 cara</td>
+        <td id="cantidad4">1</td>
+        <td><button onclick="window.open"><a href="Fotos/B5.JPG" target="_blank">B5</a></button></td>
+   <td><button onclick="actualizarCantidad(4)">Actualizar</button></td> 
+</tr>
+    <tr>
+        <td>Cartel Last Minute</td>
+      <td>A3</td>
+    <td>doble cara</td>
+     <td id="cantidad5">1</td>
+<td></td>
+        <td><button onclick="actualizarCantidad(5)">Actualizar</button></td>
+    </tr>
+    <tr>
+        <td>Cartel Customer Service horario de atención</td>
+      <td>A4</td>
+    <td>1 cara</td>
+<td id="cantidad6">2</td>
+        <td><button onclick="window.open"><a href="Fotos/B6.JPG" target="_blank">B6</a></button></td>
+<td><button onclick="actualizarCantidad(6)">Actualizar</button></td>
+    </tr>
+    <tr>
+        <td>Cartel Customer Service A21 </td>
+      <td>A4</td>
+    <td>1 cara</td>
+<td id="cantidad7">7</td>
+        <td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
+</tr>
+<tr>
+<td>Cartel check in ORY</td>
+      <td>A4</td>
+    <td>1 cara</td>
+<td id="cantidad8">5</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
+  </tr>
+<tr>
+<td>Cartel Exit Only</td>
+      <td>A4</td>
+    <td>1 cara</td>
+<td id="cantidad9">1</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
+</tr>
+<tr>
+<td>Cartel Objetos Olvidados</td>
+      <td>A4</td>
+    <td>1 cara</td>
+<td id="cantidad10">4</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Grupo 1</td>
+      <td>A3/td>
+    <td>1 cara</td>
+<td id="cantidad11">11</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Grupo 2</td>
+      <td>A3/td>
+    <td>1 cara</td>
+<td id="cantidad12">7</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Grupo 3</td>
+      <td>A3/td>
+    <td>1 cara</td>
+<td id="cantidad13">247</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(24)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Grupo 1+2</td>
+      <td>A3/td>
+    <td>1 cara</td>
+<td id="cantidad14">28</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(28)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Biometria/td>
+      <td>A3/td>
+    <td>1 cara</td>
+<td id="cantidad15">28</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(28)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Grups 1+2/Group 3</td>
+      <td>A3/td>
+    <td>doble cara</td>
+<td id="cantidad16">10</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Premium Flex</td>
+      <td>A3/td>
+    <td>doble cara </td>
+<td id="cantidad17">0</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel Grupo 3 Poliespan</td>
+      <td>A3/td>
+    <td>doble cara</td>
+<td id="cantidad18">10</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(10)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel FAMILIES + PMR</td>
+      <td>A4/td>
+    <td>doble cara</td>
+<td id="cantidad19">3</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
+</tr>
+<tr>
+<td>Cartel FAMILIES + PMR</td>
+      <td>A4/td>
+    <td>doble cara</td>
+<td id="cantidad20">2</td>
+<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
+</tr>
 
