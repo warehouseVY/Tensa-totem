@@ -302,7 +302,7 @@
 </tr>
 <tr>
 <td>Cartel Biometria</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>1 cara</td>
 <td id="cantidad35">28</td>
 <td><button onclick="window.open"><a href="Fotos/C1.JPG" target="_blank">C1</a></button></td>
