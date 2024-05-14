@@ -270,15 +270,15 @@
 </tr>
 <tr>
 <td>Cartel Grupo 1</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>1 cara</td>
-<td id="cantidad11">31</td>
+<td id="cantidad31">31</td>
 <td><button onclick="window.open"><a href="Fotos/C13.JPG" target="_blank">C13</a></button></td>
 <td><button onclick="actualizarCantidad(31)">Actualizar</button></td>
 </tr>
 <tr>
 <td>Cartel Grupo 2</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>1 cara</td>
 <td id="cantidad32">7</td>
 <td><button onclick="window.open"><a href="Fotos/C9.JPG" target="_blank">C9</a></button></td>
@@ -286,7 +286,7 @@
 </tr>
 <tr>
 <td>Cartel Grupo 3</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>1 cara</td>
 <td id="cantidad33">24</td>
 <td><button onclick="window.open"><a href="Fotos/C14.JPG" target="_blank">C14</a></button></td>
@@ -294,7 +294,7 @@
 </tr>
 <tr>
 <td>Cartel Grupo 1+2</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>1 cara</td>
 <td id="cantidad34">28</td>
 <td><button onclick="window.open"><a href="Fotos/C16.JPG" target="_blank">C16</a></button></td>
@@ -310,7 +310,7 @@
 </tr>
 <tr>
 <td>Cartel Grups 1+2/Group 3</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>doble cara</td>
 <td id="cantidad36">10</td>
 <td><button onclick="window.open"><a href="Fotos/C2.JPG" target="_blank">C2</a></button></td>
@@ -318,7 +318,7 @@
 </tr>
 <tr>
 <td>Cartel Premium Flex</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>doble cara </td>
 <td id="cantidad37">0</td>
 <td><button onclick="window.open"><a href="Fotos/C6.JPG" target="_blank">C6</a></button></td>
@@ -326,7 +326,7 @@
 </tr>
 <tr>
 <td>Cartel Grupo 3 Poliespan</td>
-      <td>A3/td>
+      <td>A3</td>
     <td>doble cara</td>
 <td id="cantidad38">10</td>
 <td></td>
@@ -334,7 +334,7 @@
 </tr>
 <tr>
 <td>Cartel FAMILIES + PMR</td>
-      <td>A4/td>
+      <td>A4</td>
     <td>doble cara</td>
 <td id="cantidad39">3</td>
 <td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
@@ -342,7 +342,7 @@
 </tr>
 <tr>
 <td>Cartel FAMILIES + PMR</td>
-      <td>A4/td>
+      <td>A4</td>
     <td>doble cara</td>
 <td id="cantidad40">2</td>
 <td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
