@@ -299,7 +299,7 @@
 <td><button onclick="actualizarCantidad(28)">Actualizar</button></td>
 </tr>
 <tr>
-<td>Cartel Biometria/td>
+<td>Cartel Biometria</td>
       <td>A3/td>
     <td>1 cara</td>
 <td id="cantidad15">28</td>
