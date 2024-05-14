@@ -247,6 +247,7 @@
       <td>A4</td>
     <td>1 cara</td>
 <td id="cantidad8">5</td>
+<td></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
   </tr>
 <tr>
@@ -326,6 +327,7 @@
       <td>A3/td>
     <td>doble cara</td>
 <td id="cantidad18">10</td>
+<td></td>
 <td><button onclick="actualizarCantidad(10)">Actualizar</button></td>
 </tr>
 <tr>
