@@ -192,14 +192,14 @@
       <td>A3</td>
 <td>1 cara</td>
      <td id="cantidad1">4</td>
-<td><button onclick="window.open"><a href="Fotos/B1.JPG" target="_blank">B1</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C4.JPG" target="_blank">C4</a></button></td>
 <td><button onclick="actualizarCantidad(1)">Actualizar</button></td>
     <tr>
       <td>MyBag Amarillo</td>
       <td>A3</td>
     <td>1 cara</td>
       <td id="cantidad2">2</td>
-     <td><button onclick="window.open"><a href="Fotos/B3.JPG" target="_blank">B3</a></button></td>
+     <td><button onclick="window.open"><a href="Fotos/C5.JPG" target="_blank">C5</a></button></td>
      <td><button onclick="actualizarCantidad(2)">Actualizar</button></td>
 </tr>
     <tr>
@@ -207,7 +207,7 @@
       <td>A3</td>
     <td>doble cara</td>
         <td id="cantidad3">7</td>
-      <td><button onclick="window.open"><a href="Fotos/B4.JPG" target="_blank">B4</a></button></td>
+      <td><button onclick="window.open"><a href="Fotos/C5.JPG" target="_blank">C5</a></button></td>
     <td><button onclick="actualizarCantidad(3)">Actualizar</button></td>
 </tr>
     <tr>
@@ -215,7 +215,7 @@
       <td>A3</td>
     <td>1 cara</td>
         <td id="cantidad4">1</td>
-        <td><button onclick="window.open"><a href="Fotos/B5.JPG" target="_blank">B5</a></button></td>
+        <td><button onclick="window.open"><a href="Fotos/C3.JPG" target="_blank">C3</a></button></td>
    <td><button onclick="actualizarCantidad(4)">Actualizar</button></td> 
 </tr>
     <tr>
@@ -223,7 +223,7 @@
       <td>A3</td>
     <td>doble cara</td>
      <td id="cantidad5">1</td>
-<td></td>
+<td><button onclick="window.open"><a href="Fotos/C7.JPG" target="_blank">C7</a></button></td>
         <td><button onclick="actualizarCantidad(5)">Actualizar</button></td>
     </tr>
     <tr>
@@ -231,7 +231,7 @@
       <td>A4</td>
     <td>1 cara</td>
 <td id="cantidad6">2</td>
-        <td><button onclick="window.open"><a href="Fotos/B6.JPG" target="_blank">B6</a></button></td>
+        <td><button onclick="window.open"><a href="Fotos/C10.JPG" target="_blank">C10</a></button></td>
 <td><button onclick="actualizarCantidad(6)">Actualizar</button></td>
     </tr>
     <tr>
@@ -239,7 +239,7 @@
       <td>A4</td>
     <td>1 cara</td>
 <td id="cantidad7">7</td>
-        <td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+        <td><button onclick="window.open"><a href="Fotos/C11.JPG" target="_blank">C11</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
 </tr>
 <tr>
@@ -247,7 +247,6 @@
       <td>A4</td>
     <td>1 cara</td>
 <td id="cantidad8">5</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
   </tr>
 <tr>
@@ -255,7 +254,7 @@
       <td>A4</td>
     <td>1 cara</td>
 <td id="cantidad9">1</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C8.JPG" target="_blank">C8</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>    
 </tr>
 <tr>
@@ -263,7 +262,7 @@
       <td>A4</td>
     <td>1 cara</td>
 <td id="cantidad10">4</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C12.JPG" target="_blank">C12</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
 </tr>
 <tr>
@@ -271,7 +270,7 @@
       <td>A3/td>
     <td>1 cara</td>
 <td id="cantidad11">11</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C13.JPG" target="_blank">C13</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
 </tr>
 <tr>
@@ -279,7 +278,7 @@
       <td>A3/td>
     <td>1 cara</td>
 <td id="cantidad12">7</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C9.JPG" target="_blank">C9</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
 </tr>
 <tr>
@@ -287,7 +286,7 @@
       <td>A3/td>
     <td>1 cara</td>
 <td id="cantidad13">247</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C14.JPG" target="_blank">C14</a></button></td>
 <td><button onclick="actualizarCantidad(24)">Actualizar</button></td>
 </tr>
 <tr>
@@ -295,7 +294,7 @@
       <td>A3/td>
     <td>1 cara</td>
 <td id="cantidad14">28</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C16.JPG" target="_blank">C16</a></button></td>
 <td><button onclick="actualizarCantidad(28)">Actualizar</button></td>
 </tr>
 <tr>
@@ -303,7 +302,7 @@
       <td>A3/td>
     <td>1 cara</td>
 <td id="cantidad15">28</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C1.JPG" target="_blank">C1</a></button></td>
 <td><button onclick="actualizarCantidad(28)">Actualizar</button></td>
 </tr>
 <tr>
@@ -311,7 +310,7 @@
       <td>A3/td>
     <td>doble cara</td>
 <td id="cantidad16">10</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C2.JPG" target="_blank">C2</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
 </tr>
 <tr>
@@ -319,7 +318,7 @@
       <td>A3/td>
     <td>doble cara </td>
 <td id="cantidad17">0</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C6.JPG" target="_blank">C6</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
 </tr>
 <tr>
@@ -327,7 +326,6 @@
       <td>A3/td>
     <td>doble cara</td>
 <td id="cantidad18">10</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
 <td><button onclick="actualizarCantidad(10)">Actualizar</button></td>
 </tr>
 <tr>
@@ -335,7 +333,7 @@
       <td>A4/td>
     <td>doble cara</td>
 <td id="cantidad19">3</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
 </tr>
 <tr>
@@ -343,7 +341,7 @@
       <td>A4/td>
     <td>doble cara</td>
 <td id="cantidad20">2</td>
-<td><button onclick="window.open"><a href="Fotos/B7.JPG" target="_blank">B7</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
 <td><button onclick="actualizarCantidad(7)">Actualizar</button></td>
 </tr>
 
