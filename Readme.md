@@ -1,5 +1,18 @@
 <html lang="es">
 <head>
+<html lang="es">
+<head>
+<script>
+        function actualizarCantidad(numeroFila) {
+            var nuevaCantidad = prompt("Ingrese la nueva cantidad:");
+            if (nuevaCantidad !== null && !isNaN(nuevaCantidad) && nuevaCantidad !== "") {
+                document.getElementById('cantidad' + numeroFila).textContent = nuevaCantidad;
+            } else {
+                alert("Por favor, ingrese un número válido para la cantidad.");
+            }
+        }
+    </script>
+</head>
 <body>
 <h2>Material Branding</h2>
 <table>
