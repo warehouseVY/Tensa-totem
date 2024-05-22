@@ -435,11 +435,17 @@ document.addEventListener('DOMContentLoaded', cargarCantidades);
 <td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
 <td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
 </tr>
-
 <td>MyBAG nuevo QR dinámico</td>
       <td>A3</td>
     <td>una cara</td>
 <td id="cantidad40">3</td>
 <td><button onclick="window.open"><a href="Fotos/C15.JPG" target="_blank">C15</a></button></td>
 <td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
-</tr>
+   </tbody>
+    </table>
+    <div class="text-right">
+        <button onclick="generarExcel()">Generar Excel</button>
+    </div>
+</div>
+</body>
+</html>
