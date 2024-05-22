@@ -365,7 +365,7 @@ function cargarCantidades() {
       <td>A3</td>
     <td>una cara</td>
 <td id="cantidad40">3</td>
-<td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
+<td><button onclick="window.open"><a href="Fotos/C15.JPG" target="_blank">C15</a></button></td>
 <td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
 </tr>
 
