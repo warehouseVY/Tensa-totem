@@ -1,32 +1,91 @@
+
+
+<!DOCTYPE html>
 <html lang="es">
 <head>
-<html lang="es">
-<head>
-<script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Branding</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script>
         function actualizarCantidad(numeroFila) {
             var nuevaCantidad = prompt("Ingrese la nueva cantidad:");
             if (nuevaCantidad !== null && !isNaN(nuevaCantidad) && nuevaCantidad !== "") {
-                    var cantidadId = 'cantidad' + numeroFila;
-                    document.getElementById('cantidad' + numeroFila).textContent = nuevaCantidad;
-                    localStorage.setItem(cantidadId, nuevaCantidad);
-          } else {
-             alert("Por favor, ingrese un número válido para la cantidad.");
-          }
-     }
-function cargarCantidades() {
- for (var i = 1; i <= 40; i++) {
-      var cantidadId = 'cantidad' + i;
+                var cantidadId = 'cantidad' + numeroFila;
+                document.getElementById(cantidadId).textContent = nuevaCantidad;
+                localStorage.setItem(cantidadId, nuevaCantidad);
+            } else {
+                alert("Por favor, ingrese un número válido para la cantidad.");
+            }
+        }
+
+        function cargarCantidades() {
+            for (var i = 1; i <= 40; i++) {
+                var cantidadId = 'cantidad' + i;
                 var cantidadGuardada = localStorage.getItem(cantidadId);
                 if (cantidadGuardada !== null) {
                     document.getElementById(cantidadId).textContent = cantidadGuardada;
-               }
+                }
             }
-    }document.addEventListener('DOMContentLoaded', cargarCantidades);
-  function generarExcel() {
+        }
+
+        function generarExcel() {
             var data = [];
             var headers = ["Referencia", "Descripción Artículo", "Cantidad", "Foto"];
             data.push(headers);
-var rows = document.querySelectorAll("tbody tr");
+
+            var rows = document.querySelectorAll("tbody tr");
             rows.forEach((row, index) => {
                 var referencia = row.cells[0].textContent;
                 var descripcion = row.cells[1].textContent;
@@ -34,15 +93,22 @@ var rows = document.querySelectorAll("tbody tr");
                 var foto = row.cells[3].querySelector("a").href;
                 data.push([referencia, descripcion, cantidad, foto]);
             });
-var wb = XLSX.utils.book_new();
+
+            var wb = XLSX.utils.book_new();
             var ws = XLSX.utils.aoa_to_sheet(data);
             XLSX.utils.book_append_sheet(wb, ws, "Material Branding");
-XLSX.writeFile(wb, "Material_Branding.xlsx");
+
+            XLSX.writeFile(wb, "Material_Branding.xlsx");
         }
-document.addEventListener('DOMContentLoaded', cargarCantidades);  
-</script>
+
+        document.addEventListener('DOMContentLoaded', cargarCantidades);
+    </script>
+<div class="text-right">
+    <button onclick="generarExcel()">Generar Excel</button>
+</div>
 </head>
 <body>
+<div class="container">
 <h2>Material Branding</h2>
 <table>
   <thead>
@@ -385,4 +451,3 @@ document.addEventListener('DOMContentLoaded', cargarCantidades);
 <td><button onclick="window.open"><a href="Fotos/C15.JPG" target="_blank">C15</a></button></td>
 <td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
 </tr>
-
