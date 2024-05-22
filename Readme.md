@@ -6,11 +6,23 @@
         function actualizarCantidad(numeroFila) {
             var nuevaCantidad = prompt("Ingrese la nueva cantidad:");
             if (nuevaCantidad !== null && !isNaN(nuevaCantidad) && nuevaCantidad !== "") {
-                document.getElementById('cantidad' + numeroFila).textContent = nuevaCantidad;
-            } else {
-                alert("Por favor, ingrese un número válido para la cantidad.");
+                    var cantidadId = 'cantidad' + numeroFila;
+                    document.getElementById('cantidad' + numeroFila).textContent = nuevaCantidad;
+                    localStorage.setItem(cantidadId, nuevaCantidad);
+          } else {
+             alert("Por favor, ingrese un número válido para la cantidad.");
+          }
+     }
+function cargarCantidades() {
+ for (var i = 1; i <= 40; i++) {
+      var cantidadId = 'cantidad' + i;
+                var cantidadGuardada = localStorage.getItem(cantidadId);
+                if (cantidadGuardada !== null) {
+                    document.getElementById(cantidadId).textContent = cantidadGuardada;
+               }
             }
-        }
+    }document.addEventListener('DOMContentLoaded', cargarCantidades);
+    </script>
     </script>
 </head>
 <body>
@@ -345,6 +357,14 @@
       <td>A4</td>
     <td>doble cara</td>
 <td id="cantidad40">2</td>
+<td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
+<td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
+</tr>
+
+<td>MyBAG nuevo QR dinámico</td>
+      <td>A4</td>
+    <td>una cara</td>
+<td id="cantidad40">3</td>
 <td><button onclick="window.open"><a href="Fotos/C17.JPG" target="_blank">C17</a></button></td>
 <td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
 </tr>
