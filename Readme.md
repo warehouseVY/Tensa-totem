@@ -438,11 +438,4 @@ document.addEventListener('DOMContentLoaded', cargarCantidades);
 <td id="cantidad40">3</td>
 <td><button onclick="window.open"><a href="Fotos/C15.JPG" target="_blank">C15</a></button></td>
 <td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
-   </tbody>
-    </table>
-    <div class="text-right">
-        <button onclick="generarExcel()">Generar Excel</button>
-    </div>
-</div>
-</body>
-</html>
+
