@@ -69,8 +69,7 @@
                 alert("Por favor, ingrese un número válido para la cantidad.");
             }
         }
-
-        function cargarCantidades() {
+function cargarCantidades() {
             for (var i = 1; i <= 40; i++) {
                 var cantidadId = 'cantidad' + i;
                 var cantidadGuardada = localStorage.getItem(cantidadId);
@@ -79,13 +78,11 @@
                 }
             }
         }
-
-        function generarExcel() {
+function generarExcel() {
             var data = [];
             var headers = ["Referencia", "Descripción Artículo", "Cantidad", "Foto"];
             data.push(headers);
-
-            var rows = document.querySelectorAll("tbody tr");
+var rows = document.querySelectorAll("tbody tr");
             rows.forEach((row, index) => {
                 var referencia = row.cells[0].textContent;
                 var descripcion = row.cells[1].textContent;
@@ -93,15 +90,12 @@
                 var foto = row.cells[3].querySelector("a").href;
                 data.push([referencia, descripcion, cantidad, foto]);
             });
-
-            var wb = XLSX.utils.book_new();
+var wb = XLSX.utils.book_new();
             var ws = XLSX.utils.aoa_to_sheet(data);
             XLSX.utils.book_append_sheet(wb, ws, "Material Branding");
-
-            XLSX.writeFile(wb, "Material_Branding.xlsx");
+XLSX.writeFile(wb, "Material_Branding.xlsx");
         }
-
-        document.addEventListener('DOMContentLoaded', cargarCantidades);
+document.addEventListener('DOMContentLoaded', cargarCantidades);
     </script>
 <div class="text-right">
     <button onclick="generarExcel()">Generar Excel</button>
