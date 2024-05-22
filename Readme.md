@@ -26,8 +26,7 @@ function cargarCantidades() {
             var data = [];
             var headers = ["Referencia", "Descripción Artículo", "Cantidad", "Foto"];
             data.push(headers);
-
-            var rows = document.querySelectorAll("tbody tr");
+var rows = document.querySelectorAll("tbody tr");
             rows.forEach((row, index) => {
                 var referencia = row.cells[0].textContent;
                 var descripcion = row.cells[1].textContent;
@@ -35,15 +34,12 @@ function cargarCantidades() {
                 var foto = row.cells[3].querySelector("a").href;
                 data.push([referencia, descripcion, cantidad, foto]);
             });
-
-            var wb = XLSX.utils.book_new();
+var wb = XLSX.utils.book_new();
             var ws = XLSX.utils.aoa_to_sheet(data);
             XLSX.utils.book_append_sheet(wb, ws, "Material Branding");
-
-            XLSX.writeFile(wb, "Material_Branding.xlsx");
+XLSX.writeFile(wb, "Material_Branding.xlsx");
         }
-
-        document.addEventListener('DOMContentLoaded', cargarCantidades);  
+document.addEventListener('DOMContentLoaded', cargarCantidades);  
 </script>
 </head>
 <body>
@@ -220,7 +216,7 @@ function cargarCantidades() {
  </tr>
   </thead>
   <tbody>
-  <tr><h3>CARTELES</h3></tr> 
+ <h3>CARTELES</h3> 
   <tr>
           <td>MyBag blancos</td>
       <td>A3</td>
