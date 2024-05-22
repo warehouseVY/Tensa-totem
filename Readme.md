@@ -22,8 +22,7 @@ function cargarCantidades() {
                }
             }
     }document.addEventListener('DOMContentLoaded', cargarCantidades);
-    </script>
-    </script>
+  </script>
 </head>
 <body>
 <h2>Material Branding</h2>
