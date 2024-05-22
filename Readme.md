@@ -95,9 +95,6 @@ XLSX.writeFile(wb, "Material_Branding.xlsx");
         }
 document.addEventListener('DOMContentLoaded', cargarCantidades);
     </script>
-<div class="text-right">
-    <button onclick="generarExcel()">Generar Excel</button>
-</div>
 </head>
 <body>
 <div class="container">
