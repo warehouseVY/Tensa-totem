@@ -22,7 +22,29 @@ function cargarCantidades() {
                }
             }
     }document.addEventListener('DOMContentLoaded', cargarCantidades);
-  </script>
+  function generarExcel() {
+            var data = [];
+            var headers = ["Referencia", "Descripción Artículo", "Cantidad", "Foto"];
+            data.push(headers);
+
+            var rows = document.querySelectorAll("tbody tr");
+            rows.forEach((row, index) => {
+                var referencia = row.cells[0].textContent;
+                var descripcion = row.cells[1].textContent;
+                var cantidad = row.cells[2].textContent;
+                var foto = row.cells[3].querySelector("a").href;
+                data.push([referencia, descripcion, cantidad, foto]);
+            });
+
+            var wb = XLSX.utils.book_new();
+            var ws = XLSX.utils.aoa_to_sheet(data);
+            XLSX.utils.book_append_sheet(wb, ws, "Material Branding");
+
+            XLSX.writeFile(wb, "Material_Branding.xlsx");
+        }
+
+        document.addEventListener('DOMContentLoaded', cargarCantidades);  
+</script>
 </head>
 <body>
 <h2>Material Branding</h2>
