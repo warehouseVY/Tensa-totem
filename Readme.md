@@ -435,7 +435,13 @@ document.addEventListener('DOMContentLoaded', cargarCantidades);
 <td>MyBAG nuevo QR dinámico</td>
       <td>A3</td>
     <td>una cara</td>
-<td id="cantidad40">3</td>
+<td id="cantidad41">3</td>
 <td><button onclick="window.open"><a href="Fotos/C15.JPG" target="_blank">C15</a></button></td>
 <td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
 
+<td>MyBAG nuevo QR dinámico</td>
+      <td>A3</td>
+    <td>dos caras</td>
+<td id="cantidad42">10</td>
+<td><button onclick="window.open"><a href="Fotos/C15.JPG" target="_blank">C15</a></button></td>
+<td><button onclick="actualizarCantidad(40)">Actualizar</button></td>
