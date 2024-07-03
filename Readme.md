@@ -68,7 +68,7 @@
             }
         }
 function cargarCantidades() {
-            for (var i = 1; i <= 40; i++) {
+            for (var i = 1; i <= 41; i++) {
                 var cantidadId = 'cantidad' + i;
                 var cantidadGuardada = localStorage.getItem(cantidadId);
                 if (cantidadGuardada !== null) {
